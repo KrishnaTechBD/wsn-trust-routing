@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the following metadata."
+title: "WSN Trust-Based Routing"
+authors:
+  - family-names: Naidu
+    given-names: Krishna Rani
+    affiliation: JNTU College of Engineering
+version: "0.1.0"
+date-released: "2026-03-31"

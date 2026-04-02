@@ -27,3 +27,50 @@ pip install -r requirements.txt
 - `tests/`: Unit and smoke tests.
 
 Refer to the `/docs` folder for detailed methodology and replication instructions.
+
+ore Algorithm
+
+The trust-based routing algorithm computes a composite trust score for each node 
+𝑛
+n using a combination of direct and indirect trust, with exponential decay to capture trust staleness:
+
+𝑇
+(
+𝑛
+)
+=
+𝛼
+⋅
+𝐷
+𝑇
+(
+𝑛
+)
+  
++
+  
+𝛽
+⋅
+𝐼
+𝑇
+(
+𝑛
+)
+⋅
+𝑒
+−
+𝜆
+𝑡
+
+**T(n) = α⋅DT(n)+β⋅IT(n)⋅e −λt**
+
+| Symbol    | Definition                                                              | Value         |
+| --------- | ----------------------------------------------------------------------- | ------------- |
+| (T(n))    | Composite trust score for node (n)                                      | Derived value |
+| (DT(n))   | Direct trust of node (n) based on its own forwarding behaviour          | Derived value |
+| (IT(n))   | Indirect trust of node (n), aggregated from neighbours’ recommendations | Derived value |
+| (t)       | Time since last trust update (simulation rounds)                        | —             |
+| (\alpha)  | Weight of direct trust                                                  | 0.6           |
+| (\beta)   | Weight of indirect trust                                                | 0.4           |
+| (\lambda) | Decay constant controlling how quickly trust becomes stale              | 0.05          |
+

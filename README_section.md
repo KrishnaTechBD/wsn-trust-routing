@@ -59,5 +59,5 @@ wsn-trust-routing/
 - Trust heatmap over simulation rounds
 - Energy consumption and detection lifetime
 
-## Professor-Facing One-Liner
+## One-Liner
 This repository demonstrates reproducible research engineering, clearly stated novelty, benchmark-aware evaluation, and PhD-ready technical communication.

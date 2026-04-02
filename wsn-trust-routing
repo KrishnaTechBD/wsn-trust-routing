@@ -1,0 +1,26 @@
+wsn-trust-routing/
+├── README.md          # Project overview, algorithms, usage, and results
+├── CITATION.cff       # Citation metadata for academic use
+├── requirements.txt   # Exact package versions for reproducibility
+├── .gitignore         # Exclude compiled files, virtual environments, checkpoints
+├── LICENSE            # MIT License
+├── src/               # Core implementation
+│   ├── composite_trust.py  # Implementation of the trust algorithm (CTS)
+│   ├── visualize.py        # Generates plots (e.g., PDR vs malicious nodes)
+│   └── ...                 # Additional modules as needed
+├── notebooks/         # Jupyter notebooks for analysis and exploratory work
+│   └── analysis.ipynb
+├── results/           # Generated plots and metrics
+│   ├── plot_pdr_vs_malicious.png
+│   ├── plot_trust_heatmap.png
+│   ├── plot_energy_lifetime.png
+│   └── metrics.csv
+├── data/              # Synthetic WSN traces and configuration files
+│   └── generate_trace.py
+├── docs/              # Documentation (e.g., reproducibility guide)
+│   └── reproducibility.md
+├── tests/             # Unit tests and smoke tests
+│   ├── test_composite_trust.py
+│   └── test_visualize.py
+└── .github/
+    └── workflows/ci.yml  # GitHub Actions workflow for CI (tests and visualization)

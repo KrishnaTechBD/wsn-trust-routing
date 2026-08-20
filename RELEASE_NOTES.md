@@ -1,4 +1,4 @@
-# ActiveTrust GitHub Refinement Pack — Release Notes
+# ActiveTrust GitHub  — Release Notes
 
 ## Included in version 0.1.0
 

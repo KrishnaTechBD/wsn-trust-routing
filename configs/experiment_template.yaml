@@ -1,0 +1,39 @@
+# Author-completed configuration template for the actual ActiveTrust NS-3 campaign.
+# Replace every TODO with the exact value used to generate the manuscript results.
+experiment:
+  simulator: ns-3.40
+  seed_policy: "independent integer seed per run; provide seed_manifest.csv"
+  runs_per_condition: 50
+  output_archive: data/raw/raw_runs.csv
+network:
+  node_count: 100
+  field_width_m: 200
+  field_height_m: 200
+  sink_x_m: 100
+  sink_y_m: 100
+  radio_model: "TODO"
+  mac_model: "TODO"
+traffic:
+  packet_size_bytes: TODO
+  rate_packets_per_s: TODO
+  epoch_duration_s: TODO
+attack:
+  model: "TODO: black-hole, selective-forwarding, collusion, or other"
+  placement: "TODO"
+  bha_fraction_values: [0.05, 0.10, 0.20, 0.30]
+trust:
+  alpha_T: TODO
+  tau: TODO
+  K_lock: TODO
+probe:
+  p_target: TODO
+  d_h_m: TODO
+  M_max: TODO
+  authentication_overhead_bytes: TODO
+routing:
+  w_h: TODO
+  w_e: TODO
+  route_repair_policy: "TODO"
+statistics:
+  confidence_level: 0.95
+  excluded_run_policy: "TODO; document before analysis"

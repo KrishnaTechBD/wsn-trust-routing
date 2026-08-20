@@ -1,0 +1,30 @@
+source,status,section_or_figure,method,metric,condition,mean,uncertainty,uncertainty_type,replicates,notes
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Table II,AODV,PDR,5% BHA,78.2,1.8,95% CI,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Table II,DSR,PDR,5% BHA,75.9,2.1,95% CI,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Table II,PassiveTrust,PDR,5% BHA,87.6,1.4,95% CI,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Table II,ActiveTrust,PDR,5% BHA,97.1,0.6,95% CI,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Table II,AODV,PDR,10% BHA,61.4,2.3,95% CI,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Table II,DSR,PDR,10% BHA,58.7,2.5,95% CI,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Table II,PassiveTrust,PDR,10% BHA,75.8,1.9,95% CI,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Table II,ActiveTrust,PDR,10% BHA,94.3,0.9,95% CI,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Table II,AODV,PDR,20% BHA,41.6,3.1,95% CI,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Table II,DSR,PDR,20% BHA,39.2,3.3,95% CI,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Table II,PassiveTrust,PDR,20% BHA,57.9,2.7,95% CI,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Table II,ActiveTrust,PDR,20% BHA,88.7,1.3,95% CI,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Table II,AODV,PDR,30% BHA,27.3,3.8,95% CI,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Table II,DSR,PDR,30% BHA,25.8,4.1,95% CI,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Table II,PassiveTrust,PDR,30% BHA,43.1,3.2,95% CI,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Table II,ActiveTrust,PDR,30% BHA,85.2,1.7,95% CI,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Table III,PassiveTrust,Detection Rate,10% BHA,73.8,4.2,95% CI,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Table III,ActiveTrust,Detection Rate,10% BHA,93.7,1.8,95% CI,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Table III,PassiveTrust,False-Positive Rate,10% BHA,7.9,1.6,95% CI,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Table III,ActiveTrust,False-Positive Rate,10% BHA,2.8,0.9,95% CI,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Table III,PassiveTrust,Mean Epochs to First Detection,10% BHA,44.6,5.1,95% CI,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Table III,ActiveTrust,Mean Epochs to First Detection,10% BHA,8.4,1.2,95% CI,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Table III,PassiveTrust,Collusion Detection Rate,10% BHA,51.3,5.8,95% CI,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Table III,ActiveTrust,Collusion Detection Rate,10% BHA,78.9,3.1,95% CI,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Table III,PassiveTrust,AUC,10% BHA,0.831,,not_reported,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Table III,ActiveTrust,AUC,10% BHA,0.983,,not_reported,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Figure 7,AODV,First-node death epoch,10% BHA,312,8,reported uncertainty,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Figure 7,ActiveTrust,First-node death epoch,10% BHA,371,7,reported uncertainty,50,Extracted from supplied PDF
+ActiveTrust_Q1_WithFigures-1.pdf,reported_not_regenerated,Figure 7,ActiveTrust,Detection-route energy overhead,10% BHA,4.1,0.4,reported uncertainty,50,Extracted from supplied PDF

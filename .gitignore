@@ -1,23 +1,24 @@
-# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*$py.class
-
-# Virtual environment
+.venv/
 venv/
+.pytest_cache/
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+# Generated analysis outputs
+results/*.csv
+results/*.json
+figures/*.png
 
-# Data and outputs
-data/
-results/
+# Large author-supplied experiment artifacts
 logs/
+data/raw/raw_runs.csv
+data/raw/*.json
 
-# Distribution / packaging
-build/
-dist/
+# Local LaTeX/build files
+*.aux
+*.log
+*.out
+*.pdf
+
+# Local package metadata
 *.egg-info/
-
-# OS-specific files
-.DS_Store

@@ -1,8 +1,12 @@
 cff-version: 1.2.0
-title: "Trust-Based Energy-Aware Routing in Wireless Sensor Networks"
-message: "If you use this repository, please cite it."
+message: "If you use the ActiveTrust refinement and validation pipeline, please cite the accompanying paper and repository release."
+title: "ActiveTrust GitHub Refinement Pack"
+type: software
+license: MIT
+version: 0.1.0
 authors:
   - family-names: "Naidu"
     given-names: "Krishna Rani"
-version: "0.1.0"
-license: "MIT"
+  - family-names: "Banik"
+    given-names: "Sajal Chandra"
+repository-code: "https://github.com/KrishnaTechBD/wsn-trust-routing"
